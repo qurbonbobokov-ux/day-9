@@ -9,23 +9,71 @@
 </head>
 
 <body>
-    <div class="text-white flex items-center justify-around">
-        <h1 class="text-[24px] lg:text-white text-black">Physionic</h1>
-        <div class="lg:w-[815px] lg:flex hidden lg:m-0  lg:items-center lg:flex lg:justify-between">
-            <div class="lg:flex lg:gap-[21px]">
-                <p>Home</p>
-                <p>Product</p>
-                <p>Pricing</p>
-                <p>Contact</p>
+    <div class="max-w-[1440px] m-auto h-[817px]  lg:bg-[url(www.png)] m-auto bg-center lg:bg-center bg-no-repeat    ">
+        <div class="text-white flex items-center justify-around">
+            <h1 class="text-[24px] lg:text-white text-black">Physionic</h1>
+            <div class="lg:w-[815px] lg:flex hidden lg:m-0  lg:items-center lg:flex lg:justify-between">
+                <div class="lg:flex lg:gap-[21px]">
+                    <p>Home</p>
+                    <p>Product</p>
+                    <p>Pricing</p>
+                    <p>Contact</p>
+                </div>
+                <button class="lg:flex hidden w-[190px] h-[52px] bg-[#23A6F0] lg:flex items-center gap-4 pl-[23px] ">Get
+                    Quote Now <img src="./icn arrow-right .icn-xs.png" alt=""></button>
             </div>
-            <button class="lg:flex hidden w-[190px] h-[52px] bg-[#23A6F0] lg:flex items-center gap-4 pl-[23px] ">Get Quote
-                Now <img src="./icn arrow-right .icn-xs.png" alt=""></button>
+            <div class="flex flex-row lg:hidden gap-5">
+                <img src="./icn search .icn-xs (1).png" alt=""><img src="./icn shopping-cart .icn-xs (1).png" alt=""><img
+                    src="./icn menu .icn-xs (1).png" alt="">
+            </div>
         </div>
-        <div class="flex flex-row lg:hidden gap-5">
-            <img src="./icn search .icn-xs (1).png" alt=""><img src="./icn shopping-cart .icn-xs (1).png" alt=""><img
-                src="./icn menu .icn-xs (1).png" alt="">
+        <div class="w-[100%] text-center pt-[70px] text-[30px] gap-[30px]  flex flex-col  lg:hidden ">
+            <h1>Home</h1>
+            <h1>Product</h1>
+            <h1>Pricing</h1>
+            <h1>Contact</h1>
         </div>
-    </div>
+        <div class="flex flex-col lg:hidden w-[100%] h-[1031px] bg-[url(2.png)] bg-no-repeat bg-center text-white ">
+            <div class="flex flex-col gap-[35px]">
+                <h1 class="text-[40px] font-semibold text-center ">Meet the Best <br> Hospital</h1>
+                <p class="text-[20px] text-center">We know how large objects will act, <br> but things on a small scale.</p>
+                <div class="flex flex-col gap-5 items-center ">
+                    <button class="w-[185px] h-[52px] bg-[#23A6F0] rounded-[37px]">Get Quote Now</button>
+                    <button class="w-[154px] h-[52px] bg-none border-[2px] border-solid border-white rounded-[37px]">Learn
+                        More</button>
+                </div>
+            </div>
+    
+    
+            <div class="w-[330px] h-[610px] m-auto  bg-white text-black">
+                <h1 class="text-center text-[24px] font-semibold pt-[35px]">Book Appointment</h1>
+                <div class="flex flex-col ml-[40px] mt-[30px] gap-[20px]">
+                    <div class="flex-col flex  gap-2 ">
+                        <label for="1">Name *</label>
+                        <input placeholder="Full Name * " id="1"
+                            class="pl-4 w-[246px] h-[50px] border-[2px] border-solid border-[gray] rounded-xl" type="text">
+                    </div>
+                    <div class="flex-col flex  gap-2 ">
+                        <label for="1">Email address * *</label>
+                        <input placeholder=" example@gmail.com   " id="1"
+                            class="pl-4 w-[246px] h-[50px] border-[2px] border-solid border-[gray] rounded-xl" type="email">
+                    </div>
+                    <div class="flex-col flex  gap-2 ">
+                        <label for="1">Departement *</label>
+                        <input placeholder="Please Select " id="1"
+                            class="pl-4 w-[246px] h-[50px] border-[2px] border-solid border-[gray] rounded-xl" type="text">
+                    </div>
+                    <div class="flex-col flex  gap-2 ">
+                        <label for="1">Time *</label>
+                        <input placeholder=" 4:00 Available * " id="1"
+                            class="pl-4 w-[246px] h-[50px] border-[2px] border-solid border-[gray] rounded-xl" type="text">
+                    </div>
+                    <button class="w-[248px] h-[52px] bg-[#23A6F0] text-white rounded-[10px] mt-[20px]  ">Book
+                        Appointment</button>
+    
+                </div>
+            </div>
+        </div>
 </body>
 
 </html>
